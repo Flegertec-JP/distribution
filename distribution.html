@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="favicon.png">
+    <title>Flegertec - ファイル配布ページ</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* .navbarのスタイル */
+        .navbar {
+            background-color: #007acc;
+            color: #fff;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: flex-start; /* メニューバーのテキストを左寄せに設定 */
+            align-items: center;
+            font-size: 24px;
+        }
+
+        .navbar img {
+            width: 30px;
+            height: 30px;
+            margin-right: 10px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 60px auto;
+            padding: 20px;
+        }
+
+        .file-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .file-list li {
+            border: 1px solid #ddd;
+            margin: 10px 0;
+            padding: 10px;
+        }
+
+        .file-list li a {
+            display: inline-block;
+            background-color: #007acc;
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .file-list li a:hover {
+            background-color: #0056a4;
+        }
+
+        /* スマートフォン用のスタイル */
+        @media (max-width: 768px) {
+            .navbar {
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="https://flegertec-jp.github.io/hp.flegertec.jp/"><img src="logo.png" alt="ロゴ"></a>
+        ファイル配布ページ
+    </div>
+    <div class="container">
+        <h2>ファイル一覧</h2>
+        <ul class="file-list">
+            <li><a href="ファイル1のURL">Null</a></li>
+            <li><a href="ファイル2のURL">Null</a></li>
+            <!-- 他のファイルを追加 -->
+        </ul>
+    </div>
+</body>
+</html>
